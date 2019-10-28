@@ -1,0 +1,44 @@
+@import "~normalize.css";
+@import "~open-color/open-color.scss";
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Avenir Next", "Apple SD Gothic Neo", "Nanum Gothic", sans-serif;
+}
+
+body,
+a,
+div,
+span,
+small,
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $oc-gray-8;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	cursor: pointer;
+	transition: color 0.1s ease;
+
+	&:hover {
+		color: pink;
+	}
+}
+
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+}
