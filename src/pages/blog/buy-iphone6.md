@@ -8,11 +8,11 @@ tags:
   - 지름
 ---
 
-![](/images/iphone6.jpg)
+![아이폰 6](/images/iphone6.jpg)
 
 지난달부터 쭉 지켜보고 있었던 아이폰6를 결국 손에 쥐게 되었습니다.
 
-![](/images/passbook.png)
-![](/images/apple_pay.png)
+![iOS Passbook 애플리케이션 스크린샷](/images/passbook.png)
+![Apple Pay 애플리케이션 스크린샷](/images/apple_pay.png)
 
 사려고 했던 이유 중 하나인 Apple Pay (Pay)는 아래처럼 아쉽게도…

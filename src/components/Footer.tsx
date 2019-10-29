@@ -19,11 +19,11 @@ const Footer: React.SFC = () => (
 	<Container>
 		<MadeWith>
 			made with
-			<MadeWithLink target="_blank" href="https://www.gatsbyjs.org/">
+			<MadeWithLink href="https://www.gatsbyjs.org/" target="_blank" rel="noopener">
 			Gatsby
 			</MadeWithLink>
 			+ ❤️ (
-			<a target="_blank" href="https://github.com/kimleedi/blog">source code</a>
+			<a href="https://github.com/kimleedi/blog" target="_blank" rel="noopener">source code</a>
 			)
 		</MadeWith>
 	</Container>
