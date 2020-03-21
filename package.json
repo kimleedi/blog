@@ -43,7 +43,7 @@
     "@types/react-dom": "^16.9.2",
     "@types/react-helmet": "^5.0.12",
     "@types/styled-components": "^4.1.19",
-    "prettier": "^1.15.3",
+    "prettier": "^2.0.0",
     "typescript": "^3.6.4"
   }
 }
