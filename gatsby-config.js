@@ -20,6 +20,12 @@ module.exports = {
 		'gatsby-plugin-sharp',
 		'gatsby-transformer-sharp',
 		{
+			resolve: 'gatsby-plugin-google-analytics',
+			options: {
+				trackingId: 'UA-59980063-4'
+			}
+		},
+		{
 			resolve: 'gatsby-plugin-netlify-cms',
 			options: {
 				modulePath: `${__dirname}/src/cms/cms.js`,
