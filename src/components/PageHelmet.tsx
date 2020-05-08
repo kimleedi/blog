@@ -18,7 +18,7 @@ const PageHelmet: React.SFC<Props> = ({
 		<meta name="description" content={description} />
 
 		<meta property="og:locale" content="ko_kR" />
-		<meta property="og:site_name" content="ahn.heejong" />
+		<meta property="og:site_name" content="KIMLEEDI" />
 		<meta property="og:title" title={title} />
 		<meta property="og:description" content={description} />
 		<meta property="og:image" content="https://leedi.me/assets/opengraph.png" />
@@ -29,7 +29,7 @@ const PageHelmet: React.SFC<Props> = ({
 
 		<meta name="twitter:title" content={title} />
 		<meta name="twitter:description" content={description} />
-		<meta name="twitter:creator" content="KiMLEEDI" />
+		<meta name="twitter:creator" content="KIMLEEDI" />
 		<meta name="twitter:site" content="@kimleedi" />
 		<meta name="twitter:url" content={url} />
 		<meta name="twitter:card" content="summary_large_image" />
