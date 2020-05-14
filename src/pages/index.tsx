@@ -23,7 +23,7 @@ export default class IndexPage extends React.Component<Props> {
 			<Layout>
 				<PageHelmet
 					title="KIMLEEDI"
-					description="김리디의 개인 블로그"
+					description="KIMLEEDI's personal blog"
 					url="https://leedi.me"
 				/>
 				<section className="section">
