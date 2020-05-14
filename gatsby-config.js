@@ -1,7 +1,8 @@
 module.exports = {
 	siteMetadata: {
 		title: 'KIMLEEDI',
-		description: '김리디의 개인 블로그',
+		author: 'KIMLEEDI',
+		description: "KIMLEEDI's personal blog",
 		siteUrl: 'https://leedi.me'
 	},
 	plugins: [
@@ -23,6 +24,20 @@ module.exports = {
 			resolve: 'gatsby-plugin-google-analytics',
 			options: {
 				trackingId: 'UA-59980063-4'
+			}
+		},
+		{
+			resolve: 'gatsby-plugin-sitemap',
+			options: {
+				exclude: ['/blog'],
+			}
+		},
+		{
+			resolve: 'gatsby-plugin-robots-txt',
+			options: {
+				host: 'https://leedi.me',
+			  	sitemap: 'https://leedi.me/sitemap.xml',
+			  	policy: [{ userAgent: '*', allow: '/' }]
 			}
 		},
 		{

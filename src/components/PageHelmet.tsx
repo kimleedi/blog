@@ -17,6 +17,12 @@ const PageHelmet: React.SFC<Props> = ({
 
 		<meta name="description" content={description} />
 
+		<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" sizes="180x180" />
+		<link rel="icon" href="/assets/favicon-32x32.png" sizes="32x32" type="image/png" />
+		<link rel="icon" href="/assets/favicon-16x16.png" sizes="16x16" type="image/png" />
+		<link rel="icon" href="/assets/favicon.ico" />
+		<meta name="theme-color" content="#ffc0cb" />
+
 		<meta property="og:locale" content="ko_kR" />
 		<meta property="og:site_name" content="KIMLEEDI" />
 		<meta property="og:title" title={title} />
