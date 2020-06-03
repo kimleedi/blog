@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import styled from 'styled-components';
 import GatsbyLink from 'gatsby-link';
 
@@ -19,7 +19,6 @@ export const BlogPostTemplate: React.SFC<Props> = ({
 	content,
 	contentComponent,
 	description,
-	tags,
 	title
 }) => {
 	const PostContent = contentComponent || Content;

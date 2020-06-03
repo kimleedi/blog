@@ -5,6 +5,7 @@ import styled from 'styled-components';
 const Navbar = () => (
 	<Container>
 		<NavItem to="/" style={{ fontWeight: "bold" }} activeClassName="nav-active">KIMLEEDI</NavItem>
+		<NavItem to="/about" activeClassName="nav-active">about</NavItem>
 	</Container>
 );
 
