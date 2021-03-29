@@ -1,9 +1,9 @@
 import React from 'react';
-import { navigateTo } from 'gatsby';
+import { navigate } from 'gatsby';
 
 export default class ArticlesMain extends React.Component {
 	componentDidMount() {
-		navigateTo('/');
+		navigate('/');
 	}
 
 	render() {
