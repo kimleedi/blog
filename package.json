@@ -20,7 +20,7 @@
     "gatsby-source-filesystem": "^3.1.0",
     "gatsby-transformer-remark": "^3.1.0",
     "gatsby-transformer-sharp": "^3.1.0",
-    "netlify-cms-app": "^2.14.32",
+    "netlify-cms-app": "^2.14.37",
     "node-sass": "^5.0.0",
     "normalize.css": "^8.0.1",
     "open-color": "^1.8.0",
