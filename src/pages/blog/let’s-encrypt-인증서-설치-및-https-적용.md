@@ -47,17 +47,24 @@ server {
 
 이것을 우리는 아래와 같이 수정하여 HTTP/2와 IPv6를 적용한다.
 
-```nginx
-server {
-        server_name example.leedi.me;
-  
-        listen 443 ssl http2;
-        listen [::]:443 ssl http2;
+```diff-nginx
+@@ -1,4 +1,5 @@
+ server {
+         server_name example.leedi.me;
+ 
+-        listen 443 ssl;
+\ No newline at end of file
++        listen 443 ssl http2;
++        listen [::]:443 ssl http2;
+\ No newline at end of file
+
 ```
 
 이러한 과정이 완료되었다면 아래의 명령어를 통해 Nginx 설정에 문제가 없는 것을 테스트 후 반영될 수 있게한다. 
 
-```shell
+```shell{outputLines: 2-3}
 nginx -t
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
 service nginx reload
 ```
